@@ -156,7 +156,7 @@
         }
     }
 
-    // Driver class
+    
     public class PowerToolDriver
     {
         public static void Main(string[] args)
@@ -188,7 +188,7 @@
             
             Console.WriteLine("TESTING BORROW METHOD:");
             Console.WriteLine("======================");
-            tool1.Borrow();  // Should succeed
+            tool1.Borrow();  
             tool1.Borrow();  // Should show error 
 
             
@@ -205,7 +205,7 @@
             Console.WriteLine($"Tool 2 new price: ${tool2.CheckPrice():F2}");
 
             // Test invalid price (-)
-            tool2.ChangePrice(-50.0);  // Should show error
+            tool2.ChangePrice(-50.0);
 
             // Test CheckPrice() and CheckBorrowed() 
             Console.WriteLine("\nTESTING STATUS CHECKS:");

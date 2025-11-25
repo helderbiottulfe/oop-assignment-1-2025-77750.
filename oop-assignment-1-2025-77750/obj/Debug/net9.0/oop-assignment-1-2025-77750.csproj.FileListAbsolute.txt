@@ -1,0 +1,15 @@
+/Users/helderbiottulfe/RiderProjects/oop-assignment-1-2025-77750/oop-assignment-1-2025-77750/bin/Debug/net9.0/oop-assignment-1-2025-77750
+/Users/helderbiottulfe/RiderProjects/oop-assignment-1-2025-77750/oop-assignment-1-2025-77750/bin/Debug/net9.0/oop-assignment-1-2025-77750.deps.json
+/Users/helderbiottulfe/RiderProjects/oop-assignment-1-2025-77750/oop-assignment-1-2025-77750/bin/Debug/net9.0/oop-assignment-1-2025-77750.runtimeconfig.json
+/Users/helderbiottulfe/RiderProjects/oop-assignment-1-2025-77750/oop-assignment-1-2025-77750/bin/Debug/net9.0/oop-assignment-1-2025-77750.dll
+/Users/helderbiottulfe/RiderProjects/oop-assignment-1-2025-77750/oop-assignment-1-2025-77750/bin/Debug/net9.0/oop-assignment-1-2025-77750.pdb
+/Users/helderbiottulfe/RiderProjects/oop-assignment-1-2025-77750/oop-assignment-1-2025-77750/obj/Debug/net9.0/oop-assignment-1-2025-77750.GeneratedMSBuildEditorConfig.editorconfig
+/Users/helderbiottulfe/RiderProjects/oop-assignment-1-2025-77750/oop-assignment-1-2025-77750/obj/Debug/net9.0/oop-assignment-1-2025-77750.AssemblyInfoInputs.cache
+/Users/helderbiottulfe/RiderProjects/oop-assignment-1-2025-77750/oop-assignment-1-2025-77750/obj/Debug/net9.0/oop-assignment-1-2025-77750.AssemblyInfo.cs
+/Users/helderbiottulfe/RiderProjects/oop-assignment-1-2025-77750/oop-assignment-1-2025-77750/obj/Debug/net9.0/oop-assignment-1-2025-77750.csproj.CoreCompileInputs.cache
+/Users/helderbiottulfe/RiderProjects/oop-assignment-1-2025-77750/oop-assignment-1-2025-77750/obj/Debug/net9.0/oop-assignment-1-2025-77750.sourcelink.json
+/Users/helderbiottulfe/RiderProjects/oop-assignment-1-2025-77750/oop-assignment-1-2025-77750/obj/Debug/net9.0/oop-assignment-1-2025-77750.dll
+/Users/helderbiottulfe/RiderProjects/oop-assignment-1-2025-77750/oop-assignment-1-2025-77750/obj/Debug/net9.0/refint/oop-assignment-1-2025-77750.dll
+/Users/helderbiottulfe/RiderProjects/oop-assignment-1-2025-77750/oop-assignment-1-2025-77750/obj/Debug/net9.0/oop-assignment-1-2025-77750.pdb
+/Users/helderbiottulfe/RiderProjects/oop-assignment-1-2025-77750/oop-assignment-1-2025-77750/obj/Debug/net9.0/oop-assignment-1-2025-77750.genruntimeconfig.cache
+/Users/helderbiottulfe/RiderProjects/oop-assignment-1-2025-77750/oop-assignment-1-2025-77750/obj/Debug/net9.0/ref/oop-assignment-1-2025-77750.dll

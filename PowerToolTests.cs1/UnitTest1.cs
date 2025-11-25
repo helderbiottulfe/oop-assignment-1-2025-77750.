@@ -21,7 +21,7 @@ public class PowerToolTests
     {
         PowerTool tool = new PowerTool("Makita", "XRJ04Z", "Saw", "MK67890", 149.99);
         
-        // First borrow should succeed
+        
         tool.Borrow();
         Assert.IsTrue(tool.CheckBorrowed());
     }
@@ -31,7 +31,7 @@ public class PowerToolTests
     {
         PowerTool tool = new PowerTool("Makita", "XRJ04Z", "Saw", "MK67890", 149.99, true);
         
-        // Should remain borrowed (error handled in method)
+        
         tool.Borrow();
         Assert.IsTrue(tool.CheckBorrowed());
     }
@@ -61,9 +61,9 @@ public class PowerToolTests
     {
         PowerTool tool = new PowerTool("Bosch", "ROS20VSC", "Sander", "BOS123", 79.99);
         
-        // Attempt to set negative price
+        
         tool.ChangePrice(-50.0);
-        // Price should remain unchanged
+        
         Assert.AreEqual(79.99, tool.CheckPrice());
     }
 
@@ -92,7 +92,7 @@ public class PowerToolTests
         Assert.AreEqual("DeWalt", tool.Manufacturer);
         Assert.AreEqual("Drill", tool.ToolType);
         Assert.AreEqual(89.99, tool.CheckPrice());
-        Assert.IsFalse(tool.CheckBorrowed()); // Should default to false
+        Assert.IsFalse(tool.CheckBorrowed()); 
     }
 
     [TestMethod]
@@ -103,9 +103,9 @@ public class PowerToolTests
         Assert.AreEqual("Bosch", tool.Manufacturer);
         Assert.AreEqual("ROS20VSC", tool.Model);
         Assert.AreEqual("ROS12345", tool.SerialNumber);
-        Assert.AreEqual("Drill", tool.ToolType); // Should default to "Drill"
-        Assert.AreEqual(0.0, tool.CheckPrice()); // Should default to 0.0
-        Assert.IsFalse(tool.CheckBorrowed()); // Should default to false
+        Assert.AreEqual("Drill", tool.ToolType);
+        Assert.AreEqual(0.0, tool.CheckPrice());
+        Assert.IsFalse(tool.CheckBorrowed()); 
     }
 
     [TestMethod]
@@ -119,7 +119,7 @@ public class PowerToolTests
     [TestMethod]
     public void TestIsValidWithInvalidData()
     {
-        // Invalid tool (empty manufacturer)
+        
         PowerTool invalidTool = new PowerTool("", "DCD771", "Drill", "DW12345", 89.99);
         Assert.IsFalse(invalidTool.IsValid());
     }
@@ -127,11 +127,11 @@ public class PowerToolTests
     [TestMethod]
     public void TestToolTypeValidation()
     {
-        // Valid tool type
+        
         PowerTool validTool = new PowerTool("DeWalt", "DCD771", "Saw", "DW12345", 89.99);
         Assert.IsTrue(validTool.IsValid());
         
-        // Invalid tool type should default to "Drill"
+        
         PowerTool invalidToolType = new PowerTool("DeWalt", "DCD771", "InvalidType", "DW12345", 89.99);
         Assert.AreEqual("Drill", invalidToolType.ToolType);
     }
